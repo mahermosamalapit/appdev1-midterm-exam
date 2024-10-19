@@ -1,15 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
+function App(){
 
   return (
-    <>
-     {/* Intro */}
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="*/}/antique-cafe-bg-01.jpg">
+    <>    
+    {/* Intro */}
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
         <nav id="tm-nav" class="fixed w-full">
             <div class="tm-container mx-auto px-2 md:py-6 text-right">
                 <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
@@ -45,7 +39,7 @@ function App() {
         </div>        
     </div>
     {/* Cafe Menu */}
-    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="*/}/antique-cafe-bg-02.jpg">
+    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-02.jpg">
         <div class="container mx-auto tm-container py-24 sm:py-48">
             <div class="text-center mb-16">
                 <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Our Cafe Menu</h2>
@@ -53,7 +47,7 @@ function App() {
             <div class="flex flex-col lg:flex-row justify-around items-center">
                 <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
                     <div class="flex items-start mb-6 tm-menu-item">
-                        <*/} src="*/}/menu-item-1.jpg" alt="Image" class="rounded-md"/>
+                        < img src="/menu-item-1.jpg" alt="Image" class="rounded-md"/>
                         <div class="ml-3 sm:ml-6">
                             <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
                             <div class="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
@@ -61,7 +55,7 @@ function App() {
                         </div>                    
                     </div>
                     <div class="flex items-start mb-6 tm-menu-item">
-                        <*/} src="*/}/menu-item-2.jpg" alt="Image" class="rounded-md"/>
+                        < img src="/menu-item-2.jpg" alt="Image" class="rounded-md"/>
                         <div class="ml-3 sm:ml-6">
                             <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
                             <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
@@ -69,7 +63,7 @@ function App() {
                         </div>                    
                     </div>
                     <div class="flex items-start mb-6 tm-menu-item">
-                        <*/} src="*/}/menu-item-3.jpg" alt="Image" class="rounded-md"/>
+                        < img src="/menu-item-3.jpg" alt="Image" class="rounded-md"/>
                         <div class="ml-3 sm:ml-6">
                             <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
                             <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
@@ -77,7 +71,7 @@ function App() {
                         </div>                    
                     </div>
                     <div class="flex items-start mb-6 tm-menu-item">
-                        <*/} src="*/}/menu-item-4.jpg" alt="Image" class="rounded-md"/>
+                        < img src="/menu-item-4.jpg" alt="Image" class="rounded-md"/>
                         <div class="ml-3 sm:ml-6">
                             <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
                             <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
@@ -92,7 +86,7 @@ function App() {
                             <div class="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
                             <div class="text-white text-md sm:text-lg font-light">Large $15</div>
                         </div>
-                        <*/} src="*/}/menu-item-5.jpg" alt="Image" class="rounded-md"/>                   
+                        < img src="/menu-item-5.jpg" alt="Image" class="rounded-md"/>                   
                     </div>
                     <div class="flex items-start justify-end mb-6 tm-menu-item-2">
                         <div class="text-right mr-6">
@@ -100,7 +94,7 @@ function App() {
                             <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
                             <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
                         </div>
-                        <*/} src="*/}/menu-item-6.jpg" alt="Image" class="rounded-md"/>                    
+                        < img src="/menu-item-6.jpg" alt="Image" class="rounded-md"/>                    
                     </div>
                     <div class="flex items-start justify-end mb-6 tm-menu-item-2">
                         <div class="text-right mr-6">
@@ -108,7 +102,7 @@ function App() {
                             <div class="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
                             <div class="text-white text-md sm:text-lg font-light">Large $18</div>
                         </div>   
-                        <*/} src="*/}/menu-item-7.jpg" alt="Image" class="rounded-md"/>                 
+                        <img src="/menu-item-7.jpg" alt="Image" class="rounded-md"/>                 
                     </div>
                     <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
                         <div class="text-right mr-6">
@@ -116,13 +110,13 @@ function App() {
                             <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
                             <div class="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
                         </div> 
-                        <*/} src="*/}/menu-item-8.jpg" alt="Image" class="rounded-md"/>                   
+                        < img src="/menu-item-8.jpg" alt="Image" class="rounded-md"/>                   
                     </div>
                 </div>
             </div>
         </div>        
     </div>
-    <div id="about" class="parallax-window" data-parallax="scroll" data-image-src="*/}/antique-cafe-bg-03.jpg">
+    <div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-03.jpg">
         <div class="container mx-auto tm-container py-24 sm:py-48">
             <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
                 <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
@@ -141,7 +135,7 @@ function App() {
             </div>           
         </div>        
     </div>
-    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="*/}/antique-cafe-bg-04.jpg">
+    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="img/antique-cafe-bg-04.jpg">
         <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
             <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
                 <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
@@ -180,80 +174,8 @@ function App() {
             </footer>
         </div>        
     </div>    
-
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script>
-
-        function checkAndShowHideMenu() {
-            if(window.innerWidth < 768) {
-                $('#tm-nav ul').addClass('hidden');                
-            } else {
-                $('#tm-nav ul').removeClass('hidden');
-            }
-        }
-
-        $(function(){
-            var tmNav = $('#tm-nav');
-            tmNav.singlePageNav();
-
-            checkAndShowHideMenu();
-            window.addEventListener('resize', checkAndShowHideMenu);
-
-            $('#menu-toggle').click(function(){
-                $('#tm-nav ul').toggleClass('hidden');
-            });
-
-            $('#tm-nav ul li').click(function(){
-                if(window.innerWidth < 768) {
-                    $('#tm-nav ul').addClass('hidden');
-                }                
-            });
-
-            $(document).scroll(function() {
-                var distanceFromTop = $(document).scrollTop();
-
-                if(distanceFromTop > 100) {
-                    tmNav.addClass('scroll');
-                } else {
-                    tmNav.removeClass('scroll');
-                }
-            });
-            
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
-    </script>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <*/} src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <*/} src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
-}
 
+}
 export default App
